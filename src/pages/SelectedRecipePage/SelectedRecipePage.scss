@@ -1,0 +1,41 @@
+.recipe__page {
+  display: flex;
+  padding: 24px;
+  border-radius: 20px;
+  background: linear-gradient(180deg, rgba(231, 249, 253, 0) 0%, #e7f9fd 100%);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25))
+    drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  border-radius: 30px;
+  cursor: pointer;
+  &-img {
+    border-radius: 30px;
+    margin-right: 25px;
+
+    background: linear-gradient(90deg, #e9e8e8 0%, #faf9f9 40px, #e9e8e8 80px);
+  }
+  &-description {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: -0.04em;
+    color: #000000;
+    margin-bottom: 16px;
+    text-align: start;
+    overflow: hidden;
+    white-space: wrap;
+    text-overflow: ellipsis;
+    & .title {
+      font-weight: 600;
+      font-size: 36px;
+      line-height: 32px;
+      letter-spacing: -0.04em;
+      color: #000000;
+      margin-bottom: 16px;
+    }
+    & .tips {
+      display: flex;
+      flex-wrap: wrap;
+      margin-bottom: 10px;
+    }
+  }
+}

@@ -1,0 +1,22 @@
+.error__page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  &-title {
+    font-weight: 600;
+    font-size: 48px;
+    letter-spacing: -0.04em;
+    text-align: center;
+    margin: 30px;
+    color: #000000;
+  }
+  &-paragraf {
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 22px;
+    letter-spacing: -0.02em;
+    color: #000000;
+  }
+}
